@@ -1,0 +1,9 @@
+node_modules/
+source-materials/
+tmp/
+.sites-runtime/
+.env
+*.log
+dist/
+*.tar.gz
+__pycache__/

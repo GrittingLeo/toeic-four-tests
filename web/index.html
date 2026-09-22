@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <meta
+      name="description"
+      content="四套托业听力与阅读练习，按原书复盘、学习高频词、整理易错题。"
+    />
+    <title>TOEIC · 四套精练</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316233c'/%3E%3Cpath d='M8 10h16M16 10v14' stroke='%23ffba75' stroke-width='4'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="application.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">跳到主要内容</a>
+    <aside class="sidebar">
+      <a href="#home" class="brand"
+        ><span class="brand-mark">T.</span
+        ><span>TOEIC<small>四套精练</small></span></a
+      >
+      <p class="nav-label">我的学习</p>
+      <nav aria-label="主导航">
+        <a href="#home" data-nav="home"
+          ><span aria-hidden="true">▤</span>四套练习</a
+        >
+        <a href="#mistakes" data-nav="mistakes"
+          ><span aria-hidden="true">◎</span>易错题归类<span
+            class="nav-count"
+            id="mistake-count"
+            >0</span
+          ></a
+        >
+        <a href="#vocabulary" data-nav="vocabulary"
+          ><span aria-hidden="true">Aa</span>高频词学习</a
+        >
+        <a href="#history" data-nav="history"
+          ><span aria-hidden="true">◷</span>练习记录</a
+        >
+      </nav>
+      <div class="sidebar-bottom">
+        <strong>专注听力与阅读</strong>
+        <p>原书模拟试题<br />仅供个人学习自测</p>
+        <span>练习记录自动保存</span>
+      </div>
+    </aside>
+    <div class="page-shell">
+      <header class="topbar">
+        <span id="breadcrumb">学习空间 / 四套练习</span
+        ><button id="save-status" class="save-status">正在连接…</button
+        ><span class="personal-badge">个人练习</span>
+      </header>
+      <section id="audio-dock" hidden aria-label="原书听力播放器">
+        <div class="audio-info">
+          <strong id="audio-label"></strong>
+          <p id="audio-note"></p>
+        </div>
+        <audio id="player" preload="metadata" controls></audio>
+        <div class="actions">
+          <button id="start-audio" class="button" hidden>开始听力</button
+          ><button id="play-group" class="button secondary">重听本题组</button
+          ><button id="to-reading" class="button secondary" hidden>
+            进入阅读
+          </button>
+        </div>
+      </section>
+      <main id="main" tabindex="-1"></main>
+      <footer>
+        四套书中模拟试题 · 非 ETS 官方历年真题<span
+          >记录只保存在此浏览器 · 清理缓存前请备份</span
+        >
+      </footer>
+    </div>
+    <dialog id="image-dialog" class="image-dialog">
+      <form method="dialog">
+        <button class="button secondary" aria-label="关闭原图">关闭 ×</button>
+      </form>
+      <img id="expanded-image" alt="" />
+      <p id="image-caption"></p>
+    </dialog>
+    <dialog id="confirm-dialog">
+      <h2 id="confirm-title"></h2>
+      <p id="confirm-message"></p>
+      <div class="actions">
+        <button class="button secondary" id="confirm-cancel">继续作答</button
+        ><button class="button" id="confirm-ok">确认交卷</button>
+      </div>
+    </dialog>
+    <dialog id="setup-dialog">
+      <h2 id="setup-title"></h2>
+      <div class="setup-fields">
+        <label
+          >练习范围<select id="setup-section">
+            <option value="full">整套 · 200 题</option>
+            <option value="listening">听力 · 100 题</option>
+            <option value="reading">阅读 · 100 题</option>
+          </select></label
+        ><label
+          >模式<select id="setup-mode">
+            <option value="practice">自由练习 · 不限时，按组看解析</option>
+            <option value="exam">模拟考试 · 听力连续播放，阅读 75 分钟</option>
+          </select></label
+        >
+      </div>
+      <p>模拟考试交卷后显示解析；自由练习可重复听录音。进度会自动保存。</p>
+      <div class="actions">
+        <button id="begin-session" class="button">开始作答</button>
+        <form method="dialog">
+          <button class="button secondary">取消</button>
+        </form>
+      </div>
+    </dialog>
+    <div
+      id="notification"
+      class="toast"
+      role="status"
+      aria-live="polite"
+      hidden
+    ></div>
+  </body>
+</html>

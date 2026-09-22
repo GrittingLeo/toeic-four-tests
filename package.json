@@ -1,0 +1,12 @@
+{
+  "name": "toeic-four-tests",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "build": "node tools/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "validate": "node tools/validate-banks.mjs"
+  }
+}
