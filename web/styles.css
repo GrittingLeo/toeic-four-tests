@@ -451,6 +451,8 @@
   }
   .in-practice .brand {
     margin-left: 4px;
+    flex-direction: column;
+    align-items: flex-start;
   }
   .in-practice main {
     padding: 28px;
@@ -813,15 +815,16 @@ small,
 }
 .brand {
   display: flex;
-  gap: 13px;
+  gap: 9px;
   align-items: center;
   text-decoration: none;
-  font-size: 1.4rem;
-  letter-spacing: 0.05em;
+  font-size: 1rem;
+  letter-spacing: 0;
   font-weight: 750;
   margin: 0 9px 58px;
 }
 .brand-mark {
+  flex-shrink: 0;
   width: 45px;
   height: 45px;
   border-radius: 12px;
@@ -834,7 +837,7 @@ small,
 .brand small {
   display: block;
   font-size: 0.8rem;
-  letter-spacing: 0.16em;
+  letter-spacing: 0;
   font-weight: 400;
   color: #b9c5d6;
   margin-top: 6px;
@@ -1310,9 +1313,9 @@ dialog p {
     font-size: 1.4rem;
   }
   .brand small {
-    display: inline;
+    display: block;
     font-size: 0.75rem;
-    margin-left: 12px;
+    margin-left: 0;
   }
   .sidebar nav {
     grid-template-columns: repeat(4, 1fr);

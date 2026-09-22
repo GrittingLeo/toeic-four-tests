@@ -10,6 +10,7 @@ for(let t=1;t<=4;t++){
   assert.equal(q.number,i+1);assert.equal(q.id,`t${t}-q${i+1}`);assert(!all.has(q.id));all.add(q.id);
   assert.deepEqual(q.options.map(o=>o.key),q.part===2?['A','B','C']:['A','B','C','D']);
   assert(q.options.every(o=>o.text.trim()));assert(q.options.some(o=>o.key===q.answer));
+  if(q.part<=2)assert(q.options.every(o=>o.text.length>3&&q.extra.replace(/\s+/g,' ').includes(o.text)),`missing source option text ${q.id}`);
   assert(new RegExp(`答案\\s*[（(]\\s*${q.answer}\\s*[）)]`).test(q.text),`explanation mismatch ${q.id}`);assert(q.tag);
   if(q.part===5)assert.equal((q.stem.match(/______/g)||[]).length,1,`blank ${q.id}`);
   const g=b.groups.find(g=>g.id===q.groupId);assert(g&&q.number>=g.start&&q.number<=g.end);
@@ -20,6 +21,11 @@ for(let t=1;t<=4;t++){
   if(g.start>=32&&g.end<=100)assert(/[A-Za-z]{4}/.test(g.transcript),`missing transcript ${g.id}`);
  }
  const cues=Object.values(audio[t].groups);assert.equal(cues.length,54);
+ for(const [n,cue] of Object.entries(audio[t].groups)){
+  assert.equal(cue.src,`media/clips/test${t}/q${String(n).padStart(3,'0')}.mp3`);
+  assert(Math.abs(cue.duration-(cue.end-cue.start))<.15,`clip duration ${t}/${n}`);
+  const clip=await stat(`web/${cue.src}`);assert(clip.size>1000&&clip.size<25*1024*1024);
+ }
  for(let i=0;i<cues.length;i++){assert(cues[i].start>=0&&cues[i].end>cues[i].start);assert(cues[i].end<=audio[t].duration+.1);if(i)assert.equal(cues[i-1].end,cues[i].start);}
  const media=await stat(`web/media/test${t}.mp3`);assert(media.size>10000000&&media.size<25*1024*1024);
  console.log(`Test ${t}: 200 questions, answer/explanation agreement, blanks, images, transcripts, 54 audio cues OK`);

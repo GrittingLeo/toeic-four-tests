@@ -154,7 +154,7 @@ function setRoute(hash) {
 }
 function home() {
   const wrong = Object.values(state.mistakes).filter((m) => !m.resolved).length;
-  main.innerHTML = `<div class="heading"><div><p class="eyebrow">LISTENING & READING</p><h1>今天，从哪一套开始？</h1><p>四套原书模拟题，练习与复盘都在这里。</p></div><button class="button secondary" data-action="export">备份学习记录</button></div>${state.active ? `<div class="resume"><div><strong>继续第 ${state.active.test} 套 · ${state.active.mode === "exam" ? "模拟考试" : "自由练习"}</strong><p>已答 ${Object.keys(state.active.answers).length} / ${state.active.ids.length} 题</p></div><button class="button" data-action="resume">继续上次练习</button></div>` : ""}<div class="stats"><div class="stat"><span class="stat-label">已完成练习</span><strong>${state.history.length}</strong><small>次</small></div><div class="stat"><span class="stat-label">待复习错题</span><strong>${wrong}</strong><small>题</small></div><div class="stat"><span class="stat-label">已掌握词汇</span><strong>${Object.values(state.words).filter(Boolean).length}</strong><small>个</small></div></div><div class="book-grid">${banks.map((b) => `<article class="book-card"><div class="book-head"><span class="book-number">ACTUAL TEST 0${b.test}</span><span class="tag ready">200 题已就绪</span></div><h2>第 ${b.test} 套</h2><p>听力 100 题 · 阅读 100 题</p><div class="book-meta"><span>原书图片与录音</span><span>逐题中文解析</span></div><div class="book-actions"><button class="button" data-action="setup" data-test="${b.test}" data-section="full">整套练习</button><button class="button secondary" data-action="setup" data-test="${b.test}" data-section="listening">听力专项</button><button class="button secondary" data-action="setup" data-test="${b.test}" data-section="reading">阅读专项</button></div></article>`).join("")}</div><p class="source-note">题目来自《新托业全真题库》，为出版模拟试题，非 ETS 官方历年真题。仅供个人学习。</p><div class="backup-row"><label class="button secondary" for="restore-file">恢复学习记录</label><input id="restore-file" type="file" accept="application/json" hidden></div>`;
+  main.innerHTML = `<div class="heading"><div><p class="eyebrow">LISTENING & READING</p><h1>托业全真练习</h1><p>TOEIC · 女踢腿四套题，听力与阅读专项自测。</p></div><button class="button secondary" data-action="export">备份学习记录</button></div>${state.active ? `<div class="resume"><div><strong>继续第 ${state.active.test} 套 · ${state.active.mode === "exam" ? "模拟考试" : "自由练习"}</strong><p>已答 ${Object.keys(state.active.answers).length} / ${state.active.ids.length} 题</p></div><button class="button" data-action="resume">继续上次练习</button></div>` : ""}<div class="stats"><div class="stat"><span class="stat-label">已完成练习</span><strong>${state.history.length}</strong><small>次</small></div><div class="stat"><span class="stat-label">待复习错题</span><strong>${wrong}</strong><small>题</small></div><div class="stat"><span class="stat-label">已掌握词汇</span><strong>${Object.values(state.words).filter(Boolean).length}</strong><small>个</small></div></div><div class="book-grid">${banks.map((b) => `<article class="book-card"><div class="book-head"><span class="book-number">ACTUAL TEST 0${b.test}</span><span class="tag ready">200 题已就绪</span></div><h2>第 ${b.test} 套</h2><p>听力 100 题 · 阅读 100 题</p><div class="book-meta"><span>原书图片与录音</span><span>逐题中文解析</span></div><div class="book-actions"><button class="button" data-action="setup" data-test="${b.test}" data-section="full">整套练习</button><button class="button secondary" data-action="setup" data-test="${b.test}" data-section="listening">听力专项</button><button class="button secondary" data-action="setup" data-test="${b.test}" data-section="reading">阅读专项</button></div></article>`).join("")}</div><p class="source-note">题目来自《新托业全真题库》，为出版模拟试题，非 ETS 官方历年真题。仅供个人学习。</p><div class="backup-row"><label class="button secondary" for="restore-file">恢复学习记录</label><input id="restore-file" type="file" accept="application/json" hidden></div>`;
 }
 function setup(test, section) {
   setupTest = Number(test);
@@ -228,7 +228,7 @@ function practice() {
   const isText = g.text && /[A-Za-z]/.test(g.text) && g.text.length > 80;
   const material = g.images.length
     ? `<div class="reader-toolbar"><div class="segmented"><button data-action="reader-text" aria-pressed="${readerMode === "text"}" ${!isText ? "disabled" : ""}>文字阅读</button><button data-action="reader-image" aria-pressed="${readerMode === "image" || !isText}">原书排版</button></div><button class="button secondary small" data-action="reader-full">全屏阅读</button><button class="button secondary small" data-action="zoom-out" aria-label="缩小材料">A−</button><button class="button secondary small" data-action="zoom-in" aria-label="放大材料">A＋</button></div><div class="reading-scroll">${readerMode === "text" && isText ? `<div class="passage-text" style="font-size:${1.075 * readerZoom}rem"><p class="reader-note">文字版便于阅读；表格、图示及聊天版式请切换「原书排版」核对。</p>${readableText(g.text)}</div>` : `<div style="width:${100 * readerZoom}%;min-width:100%">${g.images.map(sourceImage).join("")}</div>`}</div>`
-    : `<div class="audio-instruction"><div class="sound-symbol" aria-hidden="true">♫</div><h2>听录音，选出合适的回答</h2><p>Part 2 的题干和选项仅在录音中出现。${shown ? "下方可查看原书解析与听力文本。" : "提交后可查看原书解析。"}</p></div>`;
+    : `<div class="audio-instruction"><div class="sound-symbol" aria-hidden="true">♫</div><h2>听录音，选出合适的回答</h2><p>题干请听录音，选项区已提供英文内容，方便自测。${shown ? "下方可查看原书解析与听力文本。" : "提交后可查看原书解析。"}</p></div>`;
   const qids = s.ids.filter((id) => {
     const n = Number(id.split("q")[1]);
     return (
@@ -264,18 +264,26 @@ function configureAudio(s, q, g, done) {
     player.pause();
     return;
   }
-  const src = `media/test${s.test}.mp3`;
+  const exam = s.mode === "exam" && !done;
+  const cue = audioIndex[s.test]?.groups?.[g.start];
+  const src = exam ? `media/test${s.test}.mp3` : cue?.src;
+  if (!src) {
+    player.pause();
+    $("#audio-note").textContent = "当前题音频未加载，请刷新重试。";
+    return;
+  }
   if (player.getAttribute("src") !== src) {
+    player.pause();
+    const resumeTime = s.audioSource === src || (exam && !s.audioSource) ? s.audioTime || 0 : 0;
+    if (!review) {
+      s.audioSource = src;
+      s.audioTime = resumeTime;
+    }
     player.src = src;
     player.onloadedmetadata = () => {
-      if (s.audioTime)
-        player.currentTime = Math.min(
-          s.audioTime,
-          player.duration || s.audioTime,
-        );
+      if (resumeTime) player.currentTime = Math.min(resumeTime, player.duration || resumeTime);
     };
   }
-  const exam = s.mode === "exam" && !done;
   player.controls = !exam;
   player.playbackRate = 1;
   $("#audio-label").textContent =
@@ -287,11 +295,11 @@ function configureAudio(s, q, g, done) {
     : "录音播放中";
   $("#start-audio").disabled = !player.paused;
   $("#to-reading").hidden = !(exam && s.section === "full");
-  const cue = audioIndex[s.test]?.groups?.[g.start];
   $("#play-group").disabled = !cue;
+  $("#play-group").textContent = g.start === g.end ? "重听本题" : "重听本题组";
   $("#audio-note").textContent = exam
     ? "录音连续播放；听力结束后进入阅读。"
-    : "可暂停、拖动进度，或重听当前题组。";
+    : g.start === g.end ? "当前题独立音频，可暂停或从头重听。" : "本组 3 题共用一段独立音频，切换组内题目不打断播放。";
 }
 function updateTimer() {
   const el = $("#timer"),
@@ -724,8 +732,7 @@ $("#play-group").onclick = () => {
     g = bankFor(s.test).groups.find((g) => g.id === q.groupId),
     cue = audioIndex[s.test]?.groups?.[g.start];
   if (!cue) return;
-  player.currentTime = cue.start;
-  player.dataset.stopAt = cue.end;
+  player.currentTime = 0;
   player.play().catch(() => toast("录音暂时无法播放。"));
 };
 $("#to-reading").onclick = () =>
@@ -739,16 +746,8 @@ let lastAudioSave = 0;
 player.ontimeupdate = () => {
   const s = currentSession();
   if (!s) return;
-  if (s.mode === "practice" || s.status === "complete") {
-    if (
-      player.dataset.stopAt &&
-      player.currentTime >= Number(player.dataset.stopAt)
-    ) {
-      player.pause();
-      delete player.dataset.stopAt;
-    }
-  }
   if (!review) {
+    if (s.audioSource !== player.getAttribute("src")) return;
     s.audioTime = player.currentTime;
     if (Date.now() - lastAudioSave > 5000) {
       lastAudioSave = Date.now();

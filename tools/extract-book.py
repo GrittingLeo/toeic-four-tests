@@ -6,6 +6,7 @@ from pathlib import Path
 import argparse, json, re, hashlib
 import pypdfium2 as pdfium
 import pdfplumber
+from listening_options import listening_options
 
 ROOT=Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser()
@@ -131,7 +132,7 @@ for test,(qs,qe,ans,ae) in enumerate(ranges,1):
         opts=list(re.finditer(r'[（(]\s*([ABCD])\s*[）)]',body))
         # Figure labels can be A/B/C; prefer first sequential A B C D option run.
         if n<=31:
-            stem='请听录音，选择正确答案。';options=[{'key':a,'text':a} for a in ('ABC' if n>=7 else 'ABCD')]
+            stem='请听录音，选择正确答案。';options=listening_options(exp[n]['extra'],n)
         else:
             if len(opts)!=4 or sorted(m.group(1) for m in opts)!=list('ABCD'):
                 print('OPTION_REVIEW',test,n,len(opts),flush=True)
