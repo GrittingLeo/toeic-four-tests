@@ -63,7 +63,7 @@ function validState(value) {
   if(!Object.entries(value.mistakes).every(([id,m])=>{const q=banks.flatMap(b=>b.questions).find(q=>q.id===id);return q&&m&&m.id===id&&m.number===q.number&&m.part===q.part&&m.test===Number(id[1])&&m.tag===q.tag&&Number.isSafeInteger(m.wrongCount)&&m.wrongCount>=0&&Number.isSafeInteger(m.streak)&&m.streak>=0&&typeof m.resolved==='boolean';}))return false;
   return [value.active, ...value.history].filter(Boolean).every((s) => {
     const b = bankFor(s.test);
-    return (
+    const valid = (
       b && Number.isInteger(s.test) &&
       typeof s.id === "string" &&
       /^[\w-]+$/.test(s.id) &&
@@ -91,6 +91,8 @@ function validState(value) {
       (s.deadline===null||Number.isFinite(s.deadline)) &&
       (s.status!=='complete'||(s.result&&Array.isArray(s.result.byPart)&&Number.isFinite(s.finishedAt)))
     );
+    if(valid&&s.status==='complete')s.result=score(s,b);
+    return valid;
   });
 }
 const partNames = [
