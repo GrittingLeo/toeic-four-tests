@@ -7,6 +7,7 @@ import argparse, json, re, hashlib
 import pypdfium2 as pdfium
 import pdfplumber
 from listening_options import listening_options
+from vocabulary_pos import annotate_vocabulary
 
 ROOT=Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser()
@@ -240,6 +241,7 @@ if not args.test:
             frequency+=len(pattern.findall(corpus))
         words.append({'id':hashlib.sha1(key.encode()).hexdigest()[:12],**e,'frequency':frequency,'references':refs[:30]})
     words.sort(key=lambda e:(-e['frequency'],e['term'].lower()))
+    annotate_vocabulary(words)
     (OUT/'vocabulary.json').write_text(json.dumps(words,ensure_ascii=False,separators=(',',':')),encoding='utf8')
     print('VOCABULARY',len(words),flush=True)
 plumber.close();doc.close()

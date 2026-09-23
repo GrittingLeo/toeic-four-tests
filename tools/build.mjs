@@ -1,5 +1,5 @@
 import {cp,mkdir,readFile,readdir} from 'node:fs/promises';
-const allowed=['index.html','application.js','engine.js','styles.css','data','images','media'];
+const allowed=['index.html','application.js','engine.js','vocabulary.js','styles.css','data','images','media'];
 await mkdir('dist/client',{recursive:true});
 for(const name of allowed)await cp(`web/${name}`,`dist/client/${name}`,{recursive:true});
 const config=JSON.parse(await readFile('.openai/hosting.json','utf8'));

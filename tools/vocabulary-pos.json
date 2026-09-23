@@ -1,0 +1,5239 @@
+{
+  "need": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "last": {
+    "pos": [
+      "v"
+    ]
+  },
+  "due": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "property": {
+    "pos": [
+      "n"
+    ]
+  },
+  "venue": {
+    "pos": [
+      "n"
+    ]
+  },
+  "due to": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "cost": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "current": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "refund": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "application": {
+    "pos": [
+      "n"
+    ]
+  },
+  "look forward to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "water": {
+    "pos": [
+      "v"
+    ]
+  },
+  "maintenance": {
+    "pos": [
+      "n"
+    ]
+  },
+  "documentation": {
+    "pos": [
+      "n"
+    ]
+  },
+  "budget": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "receipt": {
+    "pos": [
+      "n"
+    ]
+  },
+  "voucher": {
+    "pos": [
+      "n"
+    ]
+  },
+  "accommodations": {
+    "pos": [
+      "n"
+    ]
+  },
+  "cause": {
+    "pos": [
+      "v"
+    ]
+  },
+  "complimentary": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "credit": {
+    "pos": [
+      "v"
+    ]
+  },
+  "feature": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "previously": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "attract": {
+    "pos": [
+      "v"
+    ]
+  },
+  "encourage": {
+    "pos": [
+      "v"
+    ]
+  },
+  "experienced": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "find out": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "improved": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "inquire": {
+    "pos": [
+      "v"
+    ]
+  },
+  "press": {
+    "pos": [
+      "n"
+    ]
+  },
+  "prototype": {
+    "pos": [
+      "n"
+    ]
+  },
+  "reimbursement": {
+    "pos": [
+      "n"
+    ]
+  },
+  "up to": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "valid": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "conduct": {
+    "pos": [
+      "v"
+    ]
+  },
+  "cover": {
+    "pos": [
+      "v"
+    ]
+  },
+  "entitled": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "in person": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "limited": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "potential": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "reference": {
+    "pos": [
+      "n"
+    ]
+  },
+  "refreshments": {
+    "pos": [
+      "n"
+    ]
+  },
+  "replace": {
+    "pos": [
+      "v"
+    ]
+  },
+  "requirement": {
+    "pos": [
+      "n"
+    ]
+  },
+  "secure": {
+    "pos": [
+      "adj",
+      "v"
+    ]
+  },
+  "upcoming": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "value": {
+    "pos": [
+      "v"
+    ]
+  },
+  "artwork": {
+    "pos": [
+      "n"
+    ]
+  },
+  "consideration": {
+    "pos": [
+      "n"
+    ]
+  },
+  "create": {
+    "pos": [
+      "v"
+    ]
+  },
+  "damaged": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "defective": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "distribute": {
+    "pos": [
+      "v"
+    ]
+  },
+  "exceptional": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "faulty": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "file": {
+    "pos": [
+      "v"
+    ]
+  },
+  "fit": {
+    "pos": [
+      "v",
+      "adj"
+    ]
+  },
+  "function": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "honor": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "lead": {
+    "pos": [
+      "v"
+    ]
+  },
+  "merge": {
+    "pos": [
+      "v"
+    ]
+  },
+  "release": {
+    "pos": [
+      "v"
+    ]
+  },
+  "significantly": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "specific": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "alternative": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "appliance": {
+    "pos": [
+      "n"
+    ]
+  },
+  "applicant": {
+    "pos": [
+      "n"
+    ]
+  },
+  "award-winning": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "collection": {
+    "pos": [
+      "n"
+    ]
+  },
+  "dedicated": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "efficiency": {
+    "pos": [
+      "n"
+    ]
+  },
+  "enthusiast": {
+    "pos": [
+      "n"
+    ]
+  },
+  "established": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "grant": {
+    "pos": [
+      "v"
+    ]
+  },
+  "lower": {
+    "pos": [
+      "v"
+    ]
+  },
+  "mandatory": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "organized": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "post": {
+    "pos": [
+      "v"
+    ]
+  },
+  "recall": {
+    "pos": [
+      "v"
+    ]
+  },
+  "retain": {
+    "pos": [
+      "v"
+    ]
+  },
+  "revised": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "understanding": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "via": {
+    "pos": [
+      "prep"
+    ]
+  },
+  "winning": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "a wide range of": {
+    "pos": [
+      "expression"
+    ]
+  },
+  "acquisition": {
+    "pos": [
+      "n"
+    ]
+  },
+  "assess": {
+    "pos": [
+      "v"
+    ]
+  },
+  "attachment": {
+    "pos": [
+      "n"
+    ]
+  },
+  "attendance": {
+    "pos": [
+      "n"
+    ]
+  },
+  "authorize": {
+    "pos": [
+      "v"
+    ]
+  },
+  "availability": {
+    "pos": [
+      "n"
+    ]
+  },
+  "consecutive": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "contact information": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "cover letter": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "definitely": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "demonstrate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "deposit": {
+    "pos": [
+      "n"
+    ]
+  },
+  "depression": {
+    "pos": [
+      "n"
+    ]
+  },
+  "efficient": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "enlarge": {
+    "pos": [
+      "v"
+    ]
+  },
+  "enthusiasm": {
+    "pos": [
+      "n"
+    ]
+  },
+  "estimate": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "exclusive": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "expand": {
+    "pos": [
+      "v"
+    ]
+  },
+  "expertise": {
+    "pos": [
+      "n"
+    ]
+  },
+  "fabulous": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "fill in": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "full refund": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "fully furnished": {
+    "pos": [
+      "adjPhrase"
+    ]
+  },
+  "increasingly": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "look into": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "make it to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "outstanding": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "overall": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "parking permit": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "possess": {
+    "pos": [
+      "v"
+    ]
+  },
+  "preserve": {
+    "pos": [
+      "v"
+    ]
+  },
+  "prestigious": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "priority": {
+    "pos": [
+      "n"
+    ]
+  },
+  "profits": {
+    "pos": [
+      "n"
+    ]
+  },
+  "qualified": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "reasonable": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "recession": {
+    "pos": [
+      "n"
+    ]
+  },
+  "recruit": {
+    "pos": [
+      "v"
+    ]
+  },
+  "revenue": {
+    "pos": [
+      "n"
+    ]
+  },
+  "revise": {
+    "pos": [
+      "v"
+    ]
+  },
+  "sales figures": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "sample": {
+    "pos": [
+      "n"
+    ]
+  },
+  "simultaneously": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "sufficient": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "take care of": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "to date": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "traffic congestion": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "a variety of": {
+    "pos": [
+      "expression"
+    ]
+  },
+  "absence": {
+    "pos": [
+      "n"
+    ]
+  },
+  "accurate": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "acquire": {
+    "pos": [
+      "v"
+    ]
+  },
+  "administrative": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "aggressively": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "allowance": {
+    "pos": [
+      "n"
+    ]
+  },
+  "amenities": {
+    "pos": [
+      "n"
+    ]
+  },
+  "anchor": {
+    "pos": [
+      "v"
+    ]
+  },
+  "anticipate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "applaud": {
+    "pos": [
+      "v"
+    ]
+  },
+  "appropriate": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "approximate": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "as of": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "assume": {
+    "pos": [
+      "v"
+    ]
+  },
+  "at the latest": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "awareness": {
+    "pos": [
+      "n"
+    ]
+  },
+  "boost": {
+    "pos": [
+      "v"
+    ]
+  },
+  "cc": {
+    "pos": [
+      "n"
+    ],
+    "reference": "https://dictionary.cambridge.org/dictionary/english/cc"
+  },
+  "cellular phone": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "checking account": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "chief executive officer": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "concerning": {
+    "pos": [
+      "prep"
+    ]
+  },
+  "concerns": {
+    "pos": [
+      "n"
+    ]
+  },
+  "confidence": {
+    "pos": [
+      "n"
+    ]
+  },
+  "consequently": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "considerably": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "consistently": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "construct": {
+    "pos": [
+      "v"
+    ]
+  },
+  "contribute to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "courier service": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "diverse": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "dominate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "dramatically": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "drastically": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "due date": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "effectively": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "embark on": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "enhance": {
+    "pos": [
+      "v"
+    ]
+  },
+  "entrepreneur": {
+    "pos": [
+      "n"
+    ]
+  },
+  "entry": {
+    "pos": [
+      "n"
+    ]
+  },
+  "escalation": {
+    "pos": [
+      "n"
+    ]
+  },
+  "esteemed": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "exceed": {
+    "pos": [
+      "v"
+    ]
+  },
+  "exceptionally": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "excessive": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "exhibit": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "expenditure": {
+    "pos": [
+      "n"
+    ]
+  },
+  "expire": {
+    "pos": [
+      "v"
+    ]
+  },
+  "express interest in": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "extensive": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "fastest-growing": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "findings": {
+    "pos": [
+      "n"
+    ]
+  },
+  "floor plan": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "footbridge": {
+    "pos": [
+      "n"
+    ]
+  },
+  "formerly": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "founder": {
+    "pos": [
+      "n"
+    ]
+  },
+  "free of charge": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "gear": {
+    "pos": [
+      "n"
+    ]
+  },
+  "gentle": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "get off": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "go on a business trip": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "go over": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "gourmet": {
+    "pos": [
+      "n"
+    ]
+  },
+  "hang": {
+    "pos": [
+      "v"
+    ]
+  },
+  "heavily": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "high-end": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "ideal for": {
+    "pos": [
+      "adjPhrase"
+    ]
+  },
+  "identical": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "in an effort to": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "in charge of": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "in compensation for": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "in recent years": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "in terms of": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "incoming": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "incomplete": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "inexpensive": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "ingredient": {
+    "pos": [
+      "n"
+    ]
+  },
+  "initiative": {
+    "pos": [
+      "n"
+    ]
+  },
+  "instruct": {
+    "pos": [
+      "v"
+    ]
+  },
+  "interest rate": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "invaluable": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "investigate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "involvement": {
+    "pos": [
+      "n"
+    ]
+  },
+  "job advertisement": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "job openings": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "look up": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "low-cost": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "malfunction": {
+    "pos": [
+      "v"
+    ]
+  },
+  "method of payment": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "observation": {
+    "pos": [
+      "n"
+    ]
+  },
+  "observe": {
+    "pos": [
+      "v"
+    ]
+  },
+  "ongoing": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "outcome": {
+    "pos": [
+      "n"
+    ]
+  },
+  "overwhelming": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "patronage": {
+    "pos": [
+      "n"
+    ]
+  },
+  "personally": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "prefer to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "prescription": {
+    "pos": [
+      "n"
+    ]
+  },
+  "proceed": {
+    "pos": [
+      "v"
+    ]
+  },
+  "prominent": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "proof": {
+    "pos": [
+      "n"
+    ]
+  },
+  "publication": {
+    "pos": [
+      "n"
+    ]
+  },
+  "questionnaire": {
+    "pos": [
+      "n"
+    ]
+  },
+  "rectify": {
+    "pos": [
+      "v"
+    ]
+  },
+  "redeem": {
+    "pos": [
+      "v"
+    ]
+  },
+  "refer to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "reflect": {
+    "pos": [
+      "v"
+    ]
+  },
+  "relevant": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "reliable": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "relocate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "remedy": {
+    "pos": [
+      "v"
+    ]
+  },
+  "reminder": {
+    "pos": [
+      "n"
+    ]
+  },
+  "residence": {
+    "pos": [
+      "n"
+    ]
+  },
+  "respectively": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "run out": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "specification": {
+    "pos": [
+      "n"
+    ]
+  },
+  "subsequent": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "superb": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "take action": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "take effect": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "take up": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "tenure": {
+    "pos": [
+      "n"
+    ]
+  },
+  "to the point": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "touching": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "tourist attraction": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "transition": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "under construction": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "undoubtedly": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "unemployment rate": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "unexpected": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "unprecedented": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "up-to-date": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "upon receipt": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "urge": {
+    "pos": [
+      "v"
+    ]
+  },
+  "utilize": {
+    "pos": [
+      "v"
+    ]
+  },
+  "vary": {
+    "pos": [
+      "v"
+    ]
+  },
+  "visible": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "waste": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "withdrawal": {
+    "pos": [
+      "n"
+    ]
+  },
+  "works of art": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "worth": {
+    "pos": [
+      "adj"
+    ],
+    "reference": "https://dictionary.cambridge.org/us/dictionary/english/worth"
+  },
+  "able-bodied": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "accelerate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "acceptable": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "acclaim": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "accompanied by": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "accomplishment": {
+    "pos": [
+      "n"
+    ]
+  },
+  "act of vandalism": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "ad-hoc data": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "adhere to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "admission to": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "adolescent": {
+    "pos": [
+      "n",
+      "adj"
+    ]
+  },
+  "adverse effect": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "aesthetic value": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "affluent": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "ahead of schedule": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "aim at": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "all at once": {
+    "pos": [
+      "advPhrase"
+    ]
+  },
+  "all the while": {
+    "pos": [
+      "advPhrase"
+    ]
+  },
+  "alleviate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "allocate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "anonymous reader": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "apply to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "appoint": {
+    "pos": [
+      "v"
+    ]
+  },
+  "archive": {
+    "pos": [
+      "n"
+    ]
+  },
+  "arguably": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "artifact": {
+    "pos": [
+      "n"
+    ]
+  },
+  "as a reference": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "as a token of": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "as agreed": {
+    "pos": [
+      "expression"
+    ]
+  },
+  "as requested": {
+    "pos": [
+      "expression"
+    ]
+  },
+  "aside from": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "ask a favor": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "assign": {
+    "pos": [
+      "v"
+    ]
+  },
+  "associate": {
+    "pos": [
+      "n"
+    ]
+  },
+  "at lower rates": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "at no charge (cost)": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "at one's convenience": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "attain": {
+    "pos": [
+      "v"
+    ]
+  },
+  "attendee": {
+    "pos": [
+      "n"
+    ]
+  },
+  "attention-getting": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "attentive": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "attribute A to B": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "audit": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "augment": {
+    "pos": [
+      "v"
+    ]
+  },
+  "authentic": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "authenticate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "authorization form": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "automated": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "balance of the bill": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "balance remaining": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "ban": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "basic feature": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "be absent from": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be assigned to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be baffled at": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be booked solid": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be centered on": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be committed to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be comprised of": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be converted into": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be devastated by": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be devoted to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be disclosed to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be followed by": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be highly qualified": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be impacted by": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be in charge of": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be in place": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be involved in": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be laid on": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be lined up": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be of assistance": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be on one's way to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be piled up on": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be put up for auction": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be referred to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be short staffed": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be tailored to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be understaffed": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be vital to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be well-known for": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "be well-spent": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "bear in mind": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "become adept at": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "become confident": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "bend over": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "beyond its means": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "biannual": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "bid-related": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "body of water": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "body-fat level": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "bounce back from": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "breakdown": {
+    "pos": [
+      "n"
+    ]
+  },
+  "breath with difficulty": {
+    "pos": [
+      "expression"
+    ],
+    "note": "当前词条写作 breath；若表示“困难地呼吸”，动词应为 breathe。"
+  },
+  "breathtaking": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "bring together": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "bring up": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "budget cut": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "bulk order": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "bump into": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "burn out": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "by all accounts": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "by any chance": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "by far the best": {
+    "pos": [
+      "adjPhrase"
+    ]
+  },
+  "by the due date": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "call in": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "can't make it": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "capital investment": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "captivating": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "care for": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "career fair": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "cast": {
+    "pos": [
+      "v"
+    ]
+  },
+  "catch on": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "catch up with": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "cave in": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "celebrity style": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "certification": {
+    "pos": [
+      "n"
+    ]
+  },
+  "certified": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "challenging": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "charged service": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "child care": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "chronicle": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "clinical experiment": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "clinical trial": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "collaborate with": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "combine": {
+    "pos": [
+      "v"
+    ]
+  },
+  "come out": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "come to attention": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "come up with": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "come with": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "comment on": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "commitment": {
+    "pos": [
+      "n"
+    ]
+  },
+  "commonplace": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "comparable": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "compliment": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "component": {
+    "pos": [
+      "n"
+    ]
+  },
+  "comprehensive care": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "computerized": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "conceive": {
+    "pos": [
+      "v"
+    ]
+  },
+  "concierge": {
+    "pos": [
+      "n"
+    ]
+  },
+  "conductor": {
+    "pos": [
+      "n"
+    ]
+  },
+  "confidential document": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "conflict in a schedule": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "confront": {
+    "pos": [
+      "v"
+    ]
+  },
+  "conscientious": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "consent": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "conserve": {
+    "pos": [
+      "v"
+    ]
+  },
+  "construction crew": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "consummately": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "contemporary": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "contemporary art": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "contract renewal": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "contractual": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "convene": {
+    "pos": [
+      "v"
+    ]
+  },
+  "convert": {
+    "pos": [
+      "v"
+    ]
+  },
+  "cool down": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "core group": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "correct tone": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "cover one's shift": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "craft": {
+    "pos": [
+      "v"
+    ]
+  },
+  "craftsman": {
+    "pos": [
+      "n"
+    ]
+  },
+  "create value": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "creativity": {
+    "pos": [
+      "n"
+    ]
+  },
+  "credentials": {
+    "pos": [
+      "n"
+    ]
+  },
+  "credit limits": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "criteria": {
+    "pos": [
+      "n"
+    ]
+  },
+  "cross one's fingers": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "curate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "curb": {
+    "pos": [
+      "v"
+    ]
+  },
+  "currency exchange": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "current trends": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "custom-made": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "customer representative": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "customized": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "cut down on": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "cut in half": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "daily routine": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "decade 10": {
+    "pos": [
+      "n"
+    ],
+    "note": "当前提取词条中的 10 属于释义；decade 是名词，意为“十年”。"
+  },
+  "deceased": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "decent": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "decide on": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "dedication to": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "deduct": {
+    "pos": [
+      "v"
+    ]
+  },
+  "definite": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "delete": {
+    "pos": [
+      "v"
+    ]
+  },
+  "deliberate": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "delicate art": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "deliver speeches": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "demanding": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "demeanor": {
+    "pos": [
+      "n"
+    ]
+  },
+  "descend": {
+    "pos": [
+      "v"
+    ]
+  },
+  "deserving": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "designated": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "desirable": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "desired quality": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "desperate": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "detection": {
+    "pos": [
+      "n"
+    ]
+  },
+  "devastation": {
+    "pos": [
+      "n"
+    ]
+  },
+  "diagnose": {
+    "pos": [
+      "v"
+    ]
+  },
+  "dietary supplements": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "dignity": {
+    "pos": [
+      "n"
+    ]
+  },
+  "dimension": {
+    "pos": [
+      "n"
+    ]
+  },
+  "direct A to B": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "discard": {
+    "pos": [
+      "v"
+    ]
+  },
+  "disclaimer": {
+    "pos": [
+      "n"
+    ]
+  },
+  "disclose": {
+    "pos": [
+      "v"
+    ]
+  },
+  "discrepancy": {
+    "pos": [
+      "n"
+    ]
+  },
+  "disembark": {
+    "pos": [
+      "v"
+    ]
+  },
+  "disinclined": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "dispose of": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "disregard": {
+    "pos": [
+      "v"
+    ]
+  },
+  "distinguished": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "dive into": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "do one's best": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "dominance": {
+    "pos": [
+      "n"
+    ]
+  },
+  "double-check": {
+    "pos": [
+      "v"
+    ]
+  },
+  "draft blueprint": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "drastic": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "draw up": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "drawing": {
+    "pos": [
+      "n"
+    ]
+  },
+  "dress code": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "drug dependence": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "durable goods": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "economic depression": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "efficiently": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "elaborate": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "elaborate on": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "electronic device": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "elevation": {
+    "pos": [
+      "n"
+    ]
+  },
+  "elicit": {
+    "pos": [
+      "v"
+    ]
+  },
+  "elusive": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "emergence": {
+    "pos": [
+      "n"
+    ]
+  },
+  "emerging industry": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "employ": {
+    "pos": [
+      "v"
+    ]
+  },
+  "employment contract": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "encounter": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "end in": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "end up V-ing": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "endeavor": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "endure": {
+    "pos": [
+      "v"
+    ]
+  },
+  "energy-efficient": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "engage in": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "enormously": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "ensure": {
+    "pos": [
+      "v"
+    ]
+  },
+  "equipment defect": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "erect": {
+    "pos": [
+      "v"
+    ]
+  },
+  "ergonomic": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "ergonomically": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "erosion": {
+    "pos": [
+      "n"
+    ]
+  },
+  "escape from": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "establishment": {
+    "pos": [
+      "n"
+    ]
+  },
+  "ethnic": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "evacuate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "evacuation drill": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "evaluate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "excerpt": {
+    "pos": [
+      "n"
+    ]
+  },
+  "excitement": {
+    "pos": [
+      "n"
+    ]
+  },
+  "exclaim": {
+    "pos": [
+      "v"
+    ]
+  },
+  "exclude": {
+    "pos": [
+      "v"
+    ]
+  },
+  "exclusive property": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "exclusively": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "execute": {
+    "pos": [
+      "v"
+    ]
+  },
+  "exempt": {
+    "pos": [
+      "v"
+    ]
+  },
+  "expect one's baby": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "expedite": {
+    "pos": [
+      "v"
+    ]
+  },
+  "experiment with": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "explicit": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "explicitly state": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "exposition": {
+    "pos": [
+      "n"
+    ]
+  },
+  "extend beyond": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "extend to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "faculty member": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "fall on": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "familiarize A with B": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "famous for": {
+    "pos": [
+      "adjPhrase"
+    ]
+  },
+  "far exceed": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "farewell party": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "fasten": {
+    "pos": [
+      "v"
+    ]
+  },
+  "favorable": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "feat": {
+    "pos": [
+      "n"
+    ]
+  },
+  "fellowship": {
+    "pos": [
+      "n"
+    ]
+  },
+  "figure out": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "file taxes": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "final statement": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "finalize": {
+    "pos": [
+      "v"
+    ]
+  },
+  "finalized data": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "financial support": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "fine art": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "finished product": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "first and foremost": {
+    "pos": [
+      "advPhrase"
+    ]
+  },
+  "first-aid equipment": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "fiscal year": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "fix dinner": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "flavor": {
+    "pos": [
+      "n"
+    ]
+  },
+  "flawless record": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "flexible": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "flight attendant": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "float": {
+    "pos": [
+      "v"
+    ]
+  },
+  "focus on": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "folding chair": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "follow-up": {
+    "pos": [
+      "n"
+    ]
+  },
+  "for a change": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "for fear that": {
+    "pos": [
+      "conjPhrase"
+    ]
+  },
+  "for one's reference": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "for personal use": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "for some reason": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "forerunner": {
+    "pos": [
+      "n"
+    ]
+  },
+  "fragile": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "freight carrier": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "frequent": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "freshen up": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "fridge": {
+    "pos": [
+      "n"
+    ]
+  },
+  "friendly atmosphere": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "fruitful": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "frustrating": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "fulfill request": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "full-scale": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "functionality test": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "fundraiser": {
+    "pos": [
+      "n"
+    ]
+  },
+  "furnish": {
+    "pos": [
+      "v"
+    ]
+  },
+  "gadget": {
+    "pos": [
+      "n"
+    ]
+  },
+  "gaze at": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "general public": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "generate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "generous donation": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "gesture of good will": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "get a chance to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "get a point": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "get a promotion": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "get fixed": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "get reimbursed": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "get rid of": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "get through": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "gifted": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "giveaway": {
+    "pos": [
+      "n"
+    ]
+  },
+  "go (come) into effect": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "go out of business": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "go through": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "go well": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "go wrong": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "gratify": {
+    "pos": [
+      "v"
+    ]
+  },
+  "gravitate to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "hand-made": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "hands-on experience": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "have an effect on": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "have an impact on": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "have one's eye on": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "head out to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "healthcare": {
+    "pos": [
+      "n"
+    ]
+  },
+  "hear back": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "heavy machinery": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "hectic": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "high resolution": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "high standard": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "high-rise building": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "highlight": {
+    "pos": [
+      "v"
+    ]
+  },
+  "highly experienced": {
+    "pos": [
+      "adjPhrase"
+    ]
+  },
+  "highly structured": {
+    "pos": [
+      "adjPhrase"
+    ]
+  },
+  "home appliances": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "idealistic": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "identify": {
+    "pos": [
+      "v"
+    ]
+  },
+  "immediate supervisor": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "impact": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "impair": {
+    "pos": [
+      "v"
+    ]
+  },
+  "impending": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "implement": {
+    "pos": [
+      "v"
+    ]
+  },
+  "impose": {
+    "pos": [
+      "v"
+    ]
+  },
+  "improperly": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "in a row": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "in and around": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "in celebration of": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "in contrast": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "in depth": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "in need": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "in one's place": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "in stock": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "in the heart of": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "in the suburbs": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "in transit": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "in volume": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "in-depth": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "in-house": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "inadvertent": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "inconvenient": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "incorporate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "incredibly": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "incur": {
+    "pos": [
+      "v"
+    ]
+  },
+  "indispensable": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "indistinct": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "induce": {
+    "pos": [
+      "v"
+    ]
+  },
+  "industrious": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "inevitably": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "infectious disease": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "infinitely": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "influential": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "informative": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "infrequently": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "infuriate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "inhabit": {
+    "pos": [
+      "v"
+    ]
+  },
+  "inner": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "innovative": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "insomnia": {
+    "pos": [
+      "n"
+    ]
+  },
+  "inspire": {
+    "pos": [
+      "v"
+    ]
+  },
+  "intensive course": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "interact with": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "interactive activities": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "interest-free": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "internally": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "interrogation": {
+    "pos": [
+      "n"
+    ]
+  },
+  "intimately": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "intuitive": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "invigorating": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "jot down": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "keep good time": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "keep out of": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "keep track of": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "keep up with": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "key function": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "labor costs": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "lamentable": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "lastingly": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "late fee": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "late payments": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "law practice": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "lead up to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "legacy": {
+    "pos": [
+      "n"
+    ]
+  },
+  "legally effective": {
+    "pos": [
+      "adjPhrase"
+    ]
+  },
+  "liabilities": {
+    "pos": [
+      "n"
+    ]
+  },
+  "lift": {
+    "pos": [
+      "v"
+    ]
+  },
+  "light refreshments": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "lightweight": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "likeable": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "litter": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "loan application": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "look over": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "lose track of": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "lose weight": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "low budget": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "made to order": {
+    "pos": [
+      "adjPhrase"
+    ]
+  },
+  "main feature": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "main point": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "major in": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "make a donation": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "make a transition": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "make claims": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "make note of": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "make the exception": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "make up the time": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "manipulate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "manufacturing defect": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "market demand": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "market share": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "marketing costs": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "massive": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "masterpiece": {
+    "pos": [
+      "n"
+    ]
+  },
+  "match up": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "maternity leave": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "mechanical failure": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "media outlets": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "medical history": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "medical issue": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "medication": {
+    "pos": [
+      "n"
+    ]
+  },
+  "mentor": {
+    "pos": [
+      "n"
+    ]
+  },
+  "minimize": {
+    "pos": [
+      "v"
+    ]
+  },
+  "minor in": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "mint condition": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "misinform": {
+    "pos": [
+      "v"
+    ]
+  },
+  "mislabeled": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "misprint": {
+    "pos": [
+      "n"
+    ]
+  },
+  "mistakenly": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "misuse": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "mockup": {
+    "pos": [
+      "n"
+    ]
+  },
+  "moderately": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "monetary contribution": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "monthly revenue": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "move forward": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "multi-family dwellings": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "mundaneness": {
+    "pos": [
+      "n"
+    ]
+  },
+  "nail down": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "narrow down": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "natural disaster": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "navigate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "newly developed": {
+    "pos": [
+      "adjPhrase"
+    ]
+  },
+  "newly launched": {
+    "pos": [
+      "adjPhrase"
+    ]
+  },
+  "newly opened": {
+    "pos": [
+      "adjPhrase"
+    ]
+  },
+  "nominate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "nominee": {
+    "pos": [
+      "n"
+    ]
+  },
+  "not including tax": {
+    "pos": [
+      "expression"
+    ]
+  },
+  "not-for-profit organization": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "notable": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "novice": {
+    "pos": [
+      "n"
+    ]
+  },
+  "obsolete": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "occupant": {
+    "pos": [
+      "n"
+    ]
+  },
+  "off-season rates": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "officially": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "on a daily basis": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "on a regular basis": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "on and on": {
+    "pos": [
+      "advPhrase"
+    ]
+  },
+  "on short notice": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "on the outskirts of": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "on the rise": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "on the spot": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "onsite": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "open-mike session": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "operate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "optimism": {
+    "pos": [
+      "n"
+    ]
+  },
+  "ordinary": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "organic produce": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "originate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "ornamental": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "other variables": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "out of print": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "outfit": {
+    "pos": [
+      "n"
+    ]
+  },
+  "outgoing": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "outweigh": {
+    "pos": [
+      "v"
+    ]
+  },
+  "over the counter": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "overall experience": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "overhead costs": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "oversee": {
+    "pos": [
+      "v"
+    ]
+  },
+  "page through": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "paired with": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "paperback": {
+    "pos": [
+      "n"
+    ]
+  },
+  "paralyze": {
+    "pos": [
+      "v"
+    ]
+  },
+  "part of the terms": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "partake": {
+    "pos": [
+      "v"
+    ]
+  },
+  "patent": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "pavilion": {
+    "pos": [
+      "n"
+    ]
+  },
+  "pay overtime": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "pediatrician": {
+    "pos": [
+      "n"
+    ]
+  },
+  "penetrate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "per one's request": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "perception": {
+    "pos": [
+      "n"
+    ]
+  },
+  "personalized": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "perspective client": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "pharmacologist": {
+    "pos": [
+      "n"
+    ]
+  },
+  "philanthropist": {
+    "pos": [
+      "n"
+    ]
+  },
+  "physical therapy": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "pinnacle": {
+    "pos": [
+      "n"
+    ]
+  },
+  "place an emphasis on": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "plug in": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "political opponent": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "popular dish": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "portable": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "portray": {
+    "pos": [
+      "v"
+    ]
+  },
+  "pose": {
+    "pos": [
+      "v"
+    ]
+  },
+  "posted on": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "posting": {
+    "pos": [
+      "n"
+    ]
+  },
+  "precision": {
+    "pos": [
+      "n"
+    ]
+  },
+  "preferably": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "preferred customer": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "pregnant": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "premier": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "preorder": {
+    "pos": [
+      "v"
+    ]
+  },
+  "preventable": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "price quote": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "print out": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "printing paper": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "privilege": {
+    "pos": [
+      "n"
+    ]
+  },
+  "processing fee": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "proclamation": {
+    "pos": [
+      "n"
+    ]
+  },
+  "product launch": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "profit gains": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "profit margin": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "profitability": {
+    "pos": [
+      "n"
+    ]
+  },
+  "profitable": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "promotional effect": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "prompt payment": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "proper functioning": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "property taxes": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "property value": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "prospective client": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "protocol": {
+    "pos": [
+      "n"
+    ]
+  },
+  "provide an edge": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "prune": {
+    "pos": [
+      "v"
+    ]
+  },
+  "public hearing": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "public's perception": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "publicize": {
+    "pos": [
+      "v"
+    ]
+  },
+  "punctual": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "purchasing decision": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "pursue": {
+    "pos": [
+      "v"
+    ]
+  },
+  "push the release": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "put up": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "quarterly": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "query": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "quote": {
+    "pos": [
+      "v"
+    ]
+  },
+  "raise funds": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "rave": {
+    "pos": [
+      "v"
+    ]
+  },
+  "reach an agreement": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "reach out to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "react to": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "readily": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "rear-end": {
+    "pos": [
+      "v"
+    ]
+  },
+  "receive recognition": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "receiving party": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "recharge": {
+    "pos": [
+      "v"
+    ]
+  },
+  "recipient": {
+    "pos": [
+      "n"
+    ]
+  },
+  "recognizable": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "record-breaking": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "refinery": {
+    "pos": [
+      "n"
+    ]
+  },
+  "refrain from V-ing": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "regularity of use": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "regulate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "reinforce": {
+    "pos": [
+      "v"
+    ]
+  },
+  "reiterate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "release a report": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "relevant documents": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "relinquish": {
+    "pos": [
+      "v"
+    ]
+  },
+  "remit payment": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "renowned": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "rental period": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "replicate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "reside": {
+    "pos": [
+      "v"
+    ]
+  },
+  "restock": {
+    "pos": [
+      "v"
+    ]
+  },
+  "restore": {
+    "pos": [
+      "v"
+    ]
+  },
+  "restraint": {
+    "pos": [
+      "n"
+    ]
+  },
+  "restriction": {
+    "pos": [
+      "n"
+    ]
+  },
+  "retirement income": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "retrieve": {
+    "pos": [
+      "v"
+    ]
+  },
+  "revoke": {
+    "pos": [
+      "v"
+    ]
+  },
+  "revolutionary": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "reward balance": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "rise in spending": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "road maintenance": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "routine check": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "row": {
+    "pos": [
+      "n",
+      "v"
+    ]
+  },
+  "rudimentary": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "ruthlessly": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "safeguarding": {
+    "pos": [
+      "n"
+    ]
+  },
+  "satisfaction rate": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "scatter": {
+    "pos": [
+      "v"
+    ]
+  },
+  "scenic route": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "searchable": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "seasonal peak": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "securities": {
+    "pos": [
+      "n"
+    ]
+  },
+  "security deposit": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "selective": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "self-discovery": {
+    "pos": [
+      "n"
+    ]
+  },
+  "service aspect": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "set forth": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "shatter": {
+    "pos": [
+      "v"
+    ]
+  },
+  "shed light on": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "short biographies": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "shorten": {
+    "pos": [
+      "v"
+    ]
+  },
+  "shred": {
+    "pos": [
+      "v"
+    ]
+  },
+  "sick leave policy": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "sign an agreement": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "sign in": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "signed contract": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "significant changes": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "sleep aid": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "slip one's mind": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "solidify": {
+    "pos": [
+      "v"
+    ]
+  },
+  "sort out": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "spec sheet": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "special request": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "specialize in": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "specifically": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "specimen": {
+    "pos": [
+      "n"
+    ]
+  },
+  "speculation": {
+    "pos": [
+      "n"
+    ]
+  },
+  "speed up": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "spend on": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "spend time V-ing": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "spin one's wheels": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "splash": {
+    "pos": [
+      "v"
+    ]
+  },
+  "stance on": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "stare at (out)": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "startle": {
+    "pos": [
+      "v"
+    ]
+  },
+  "startup business": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "state-of-the-art": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "static": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "stay tuned": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "stockholder": {
+    "pos": [
+      "n"
+    ]
+  },
+  "storage facility": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "strive to do": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "strongly recommend": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "struggle against": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "subcontractor": {
+    "pos": [
+      "n"
+    ]
+  },
+  "subscriber": {
+    "pos": [
+      "n"
+    ]
+  },
+  "subscription to": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "substantially": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "substitute": {
+    "pos": [
+      "v"
+    ]
+  },
+  "suffer losses": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "supposedly": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "supreme": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "surpass": {
+    "pos": [
+      "v"
+    ]
+  },
+  "surplus": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "susceptible to": {
+    "pos": [
+      "adjPhrase"
+    ]
+  },
+  "suspend": {
+    "pos": [
+      "v"
+    ]
+  },
+  "switch off": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "sympathize with": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "tailor": {
+    "pos": [
+      "v"
+    ]
+  },
+  "take a detour": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "take an order": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "take charge of": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "take course": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "take into consideration": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "take inventory": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "take notes": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "take steps": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "tamper": {
+    "pos": [
+      "v"
+    ]
+  },
+  "tax law": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "tax rates": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "taxation": {
+    "pos": [
+      "n"
+    ]
+  },
+  "temporary closing": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "tenant": {
+    "pos": [
+      "n"
+    ]
+  },
+  "terminate": {
+    "pos": [
+      "v"
+    ]
+  },
+  "terms of services": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "testimony": {
+    "pos": [
+      "n"
+    ]
+  },
+  "thought-provoking": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "ticket-holder": {
+    "pos": [
+      "n"
+    ]
+  },
+  "time slot": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "time-consuming": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "top-notch schools": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "traffic flow": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "train attendant": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "transit": {
+    "pos": [
+      "n"
+    ]
+  },
+  "travel on business": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "treasurer": {
+    "pos": [
+      "n"
+    ]
+  },
+  "treatment": {
+    "pos": [
+      "n"
+    ]
+  },
+  "tremendous": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "trials": {
+    "pos": [
+      "n"
+    ]
+  },
+  "trim": {
+    "pos": [
+      "v"
+    ]
+  },
+  "turn in": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "turn out": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "turn the tide our way": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "turnout": {
+    "pos": [
+      "n"
+    ]
+  },
+  "tutorial": {
+    "pos": [
+      "n"
+    ]
+  },
+  "unanimous": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "unavoidable": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "under pressure": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "under the lead of": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "under warranty": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "undergo changes": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "unfavorable condition": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "unforgettable": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "ungrateful": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "uninterrupted": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "universally": {
+    "pos": [
+      "adv"
+    ]
+  },
+  "unmatched": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "unpaid leave of absence": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "upturn": {
+    "pos": [
+      "n"
+    ]
+  },
+  "use extra care": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "utility bill": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "vaccination": {
+    "pos": [
+      "n"
+    ]
+  },
+  "valued client": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "vigilant": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "violation": {
+    "pos": [
+      "n"
+    ]
+  },
+  "voluntary": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "vulnerable to": {
+    "pos": [
+      "adjPhrase"
+    ]
+  },
+  "wait on": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "water leak": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "weigh": {
+    "pos": [
+      "v"
+    ]
+  },
+  "well-established": {
+    "pos": [
+      "adj"
+    ]
+  },
+  "win the award": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "windshield": {
+    "pos": [
+      "n"
+    ]
+  },
+  "with extreme care": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "with the exception of": {
+    "pos": [
+      "prepPhrase"
+    ]
+  },
+  "work closely with": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "work out": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "work permit": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "work properly": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "worn out": {
+    "pos": [
+      "adjPhrase"
+    ]
+  },
+  "wrap up": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "write a check": {
+    "pos": [
+      "verbPhrase"
+    ]
+  },
+  "written authorization": {
+    "pos": [
+      "nounPhrase"
+    ]
+  },
+  "year sales goal": {
+    "pos": [
+      "nounPhrase"
+    ]
+  }
+}

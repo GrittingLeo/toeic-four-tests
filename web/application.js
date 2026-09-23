@@ -8,6 +8,7 @@ import {
   remainingSeconds,
   formatTime,
 } from "./engine.js";
+import { POS_LABELS } from "./vocabulary.js";
 const $ = (s) => document.querySelector(s),
   esc = (s) =>
     String(s ?? "").replace(
@@ -398,7 +399,7 @@ function words() {
   const w = list[wordIndex];
   main.innerHTML = `<div class="heading"><div><p class="eyebrow">WORDS IN CONTEXT</p><h1>在题目里，把单词记住。</h1><p>原书词汇与短语 · ${vocabulary.length} 个条目</p></div></div><div class="filters"><input id="word-query" type="search" placeholder="搜索单词或中文释义" aria-label="搜索词汇" value="${esc(wordQuery)}"><label class="check-label"><input type="checkbox" id="word-unmastered" ${wordUnmastered ? "checked" : ""}>只看未掌握</label><button class="button secondary" data-action="random-word">随机一词</button></div>${
     w
-      ? `<section class="word-card"><div class="word-top"><span>${wordIndex + 1} / ${list.length}</span><span>${w.frequency ? "试题文本中出现 " + w.frequency + " 次" : "原书词汇表收录"}</span></div><h2 lang="en">${esc(w.term)}</h2><button class="meaning-cover ${wordRevealed ? "revealed" : ""}" data-action="reveal-word" aria-label="${wordRevealed ? "收起释义" : "揭晓释义"}">${wordRevealed ? esc(w.meaning) : "点击或按空格，揭晓释义"}</button><div class="actions"><button class="button ${state.words[w.id] ? "secondary" : ""}" data-action="master-word">${state.words[w.id] ? "✓ 已掌握 · 撤销" : "标记已掌握"}</button><button class="button secondary" data-action="next-word">下一个词 →</button></div>${
+      ? `<section class="word-card"><div class="word-top"><span>${wordIndex + 1} / ${list.length}</span><span>${w.frequency ? "试题文本中出现 " + w.frequency + " 次" : "原书词汇表收录"}</span></div><h2 lang="en">${esc(w.term)}</h2><button class="meaning-cover ${wordRevealed ? "revealed" : ""}" data-action="reveal-word" aria-label="${wordRevealed ? "收起释义" : "揭晓释义"}">${wordRevealed ? `<span class="word-pos">${w.pos.map(pos=>`<span class="word-pos-label">${esc(POS_LABELS[pos])}</span>`).join("")}</span><span class="word-definition">${esc(w.meaning)}</span>${w.posNote ? `<span class="word-pos-note">${esc(w.posNote)}</span>` : ""}` : "点击或按空格，揭晓词性与释义"}</button><div class="actions"><button class="button ${state.words[w.id] ? "secondary" : ""}" data-action="master-word">${state.words[w.id] ? "✓ 已掌握 · 撤销" : "标记已掌握"}</button><button class="button secondary" data-action="next-word">下一个词 →</button></div>${
           w.references.length
             ? `<div class="word-references"><h3>回到题目</h3>${w.references
                 .slice(0, 6)

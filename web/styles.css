@@ -374,6 +374,28 @@
   background: #edf6f2;
   color: #1c5144;
 }
+.word-pos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.word-pos-label {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 6px;
+  background: #d6e9e1;
+  color: #234d40;
+  font-size: 0.875rem;
+  font-weight: 650;
+}
+.word-definition, .word-pos-note {
+  display: block;
+}
+.word-pos-note {
+  margin-top: 12px;
+  font-size: 0.875rem;
+}
 .word-references {
   border-top: 1px solid #e0e7f0;
   padding-top: 22px;

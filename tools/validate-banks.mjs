@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import {readFile,access,stat} from 'node:fs/promises';
+import {POS_LABELS} from '../web/vocabulary.js';
 const read=async name=>JSON.parse(await readFile(`web/data/${name}.json`,'utf8'));
 const audio=await read('audio'),all=new Set();
 for(let t=1;t<=4;t++){
@@ -31,5 +32,5 @@ for(let t=1;t<=4;t++){
  console.log(`Test ${t}: 200 questions, answer/explanation agreement, blanks, images, transcripts, 54 audio cues OK`);
 }
 const words=await read('vocabulary');assert(words.length>300);assert.equal(new Set(words.map(w=>w.id)).size,words.length);
-for(const w of words){assert(w.term&&w.meaning);assert(Number.isInteger(w.frequency)&&w.frequency>=0);assert(w.references.every(id=>all.has(id)));}
+for(const w of words){assert(w.term&&w.meaning);assert(Array.isArray(w.pos)&&w.pos.length&&w.pos.every(p=>POS_LABELS[p]),`missing POS ${w.term}`);assert(Number.isInteger(w.frequency)&&w.frequency>=0);assert(w.references.every(id=>all.has(id)));}
 console.log(`${words.length} source vocabulary entries OK`);
